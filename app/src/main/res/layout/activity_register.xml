@@ -24,6 +24,14 @@
             android:textSize="50dp" />
 
         <EditText
+            android:id="@+id/etDisplayNameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Display Name"
+            android:textSize="20dp" />
+
+        <EditText
             android:id="@+id/etUsernameReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -35,16 +43,18 @@
             android:id="@+id/etPasswordReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="5dp"
             android:hint="Password"
+            android:inputType="textPassword"
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/etRPasswordReg"
+            android:id="@+id/etRePasswordReg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:hint="Password Confirm"
+            android:inputType="textPassword"
             android:textSize="20dp" />
 
     </LinearLayout>
