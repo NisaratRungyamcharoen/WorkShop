@@ -18,7 +18,7 @@
             android:id="@+id/imgAndroid"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/android_robot" />
+            android:src="@drawable/ic_launcher" />
 
         <LinearLayout
             android:layout_width="match_parent"
